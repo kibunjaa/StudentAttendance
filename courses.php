@@ -28,19 +28,20 @@
 			</div>  
             <div class="card">
                 <div class="card-body">
-                      <table class="table table-striped table-hover table-responsive{-sm|-md|-lg|-xl" style="font-size:12px">
-                        <thead>
-                            <tr>
-                                <th>Computer Mathematics</th>
-                                <th >Life Skills</th>
-                                <th >Entreprenuership</th>
-                                <th >Structed Programming</th>
-                                <th >ICT & Ethics</th>                
-                                <th>Operational Computer</th>
-                                <th>Communication Skills</th>
-                            </tr>
-                        </thead>
-                    </table>
+                    <label for="message" class="form-label" > Course?</label>
+						<select class="form-select form-control " name="course" aria-label="Disabled select example">
+						<option><b></b></option>
+						<option value="Information Technology">Information Technology</option>
+						    <option value="Land Survey">Land Survey</option>
+							<option value="Photogrammetry & Remote Sensing">Photogrammetry & Remote Sensing</option>
+							<option value="Catography and GIS">Catography and GIS</option>
+                            <option value="ICT">ICT</option>
+                            <option value="ICDL">ICDL</option>
+                            <option value="Accounting Technitian">Accounting Technitian</option>
+                            <option value="Public Accountant">Public Accountant</option>
+                            <option value="Accounting Managment Skills">Accounting Managment Skills</option>
+                            <option value="Geospatial Course">Geospatial Course</option>
+						</select>
                 </div>
             </div>
 		</div>         

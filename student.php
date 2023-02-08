@@ -33,15 +33,41 @@
                             <tr>
                                 <th>id</th>
                                 <th >FullName</th>
-                                <th >Phone</th>
-                                <th >Email</th>
-                                <th >Course</th>                
-                                <th>Action</th>
+                                <th >Attendance</th>
                             </tr>
                         </thead>
                     </table>
                 </div>
             </div>
+            <div class="card">
+                <div class="card-body">
+                    <label for="message" class="form-label" > Units</label>
+						<select class="form-select form-control " name="course" aria-label="Disabled select example">
+						  <option><b></b></option>
+						    <option value="Computer Mathematics">Computer Mathematics</option>
+						    <option value="Life Skills">Life Skills</option>
+							<option value="Entreprenuership">Entreprenuership</option>
+							<option value="Structed Programming">Structed Programming</option>
+                            <option value="ICT & Ethics">ICT & Ethics</option>
+                            <option value="Operational Computer">Operational Computer</option>
+                            <option value="Communication Skills">Communication Skills</option>
+						</select>
+                <div class="row">
+				<div class="mb-3 col-lg-6">
+                    <div class="mb-3 col-lg-6">
+						<label for="Lecturer" class="form-label">Lecturer</label>
+						<input type="text"name="lecturer" class="form-control" placeholder="">
+					</div> 
+					<div class="mb-3 col-lg-6">
+					    <label for="Time" class="form-label">Time</label>
+						<input type="time" name="Time" class="form-control" placeholder="">
+					</div>
+                    <div class="mb-3 col-lg-6">
+						<label for="Day" class="form-label">Day</label>
+						<input type="date" name="Day" class="form-control" placeholder="">
+					</div>
+				</div> 
+			</div> 
 		</div>         
 	</div>
   <?php require_once('includes/scripts.php') ?>

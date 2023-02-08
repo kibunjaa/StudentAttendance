@@ -24,7 +24,7 @@
                     <span>Student Attendance System</span>
                 </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-6">
                 <div class="card-header bg-dark text-white text-center">
                     <span>Students</span>					
                 </div>
@@ -34,7 +34,7 @@
                 </div>
                 <div class="card-footer"></div>
             </div>     
-            <div class="col-lg-3">
+            <div class="col-lg-6">
                 <div class="card-header bg-dark text-white text-center">
                         <span>no.of students attended</span>												
                 </div>

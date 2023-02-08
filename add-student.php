@@ -66,24 +66,7 @@ $msg="";
 										</select>   
 									</div> 
 							    </div>  
-								<div class="row">
-									<div class="mb-3 col-lg-6">
-											<label for="message" class="form-label" >  What's your preferred course?</label>
-											<select class="form-select form-control " name="course" aria-label="Disabled select example">
-												<option><b></b></option>
-												<option value="Information Technology">Information Technology</option>
-												<option value="Land Survey">Land Survey</option>
-												<option value="Photogrammetry & Remote Sensing">Photogrammetry & Remote Sensing</option>
-												<option value="Catography and GIS">Catography and GIS</option>
-                                                <option value="ICT">ICT</option>
-                                                <option value="ICDL">ICDL</option>
-                                                <option value="Accounting Technitian">Accounting Technitian</option>
-                                                <option value="Public Accountant">Public Accountant</option>
-                                                <option value="Accounting Managment Skills">Accounting Managment Skills</option>
-                                                <option value="Geospatial Course">Geospatial Course</option>
-											</select>	
-										</div> 
-								</div>    								                                   								
+								   								                                   								
 								<div class="row pt-1">
 									<div class="col-lg-6">
 										<button type="submit" name="addstudents" class="btn btn-primary">Add Student</button>
